@@ -1,0 +1,19 @@
+[tool.ruff]
+# Define o tamanho máximo da linha
+line-length = 120
+
+[tool.ruff.lint]
+# Seleciona as regras: E (pycodestyle), F (pyflakes), I (isort) e B (flake8-bugbear)
+select = [
+    "E",
+    "F",
+    "I",
+    "B"
+]
+# Ignora regras específicas caso precise de exceções
+ignore = []
+
+[tool.ruff.format]
+# Usa estilo de indentação similar ao formatador Black
+quote-style = "double"
+indent-style = "space"
